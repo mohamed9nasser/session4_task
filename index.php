@@ -4,7 +4,7 @@ if(! isset($_POST['calc'])){
     $_POST['num2']=0;
 }
 
-function mini_culc($num1,$num2)
+function mini_calc($num1,$num2)
 {
     if(isset($_POST['num1'])){
         $num1=$_POST['num1'];
@@ -85,7 +85,7 @@ function mini_culc($num1,$num2)
       <div class="clear">
         <p>
         <?php
-        mini_culc($_POST['num1'],$_POST['num2']);
+        mini_calc($_POST['num1'],$_POST['num2']);
         ?>
      </p>
 
